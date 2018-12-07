@@ -1,0 +1,33 @@
+body {
+  background-image: url(images/train.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.jumbotron {
+  color: #ffb64f;
+  text-shadow: 1px 1px 1px black;
+  background-color: #b85c2e83;
+  box-shadow: 1px 1px 1px #b83a2e;
+}
+
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading {
+  background: #b85c2e83 !important;
+  color: white;
+}
+
+.panel-transparent .panel-body {
+  background: #b85c2e83 !important;
+  color: white;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #2e85b8;
+}
